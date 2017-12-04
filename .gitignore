@@ -1,0 +1,4 @@
+__pycache__/
+.idea/
+data/gen_credentials.py
+data/*.secret

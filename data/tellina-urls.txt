@@ -1,0 +1,2 @@
+http://65.49.54.194:8000
+http://kirin.cs.washington.edu:8002

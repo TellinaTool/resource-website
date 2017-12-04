@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tellina Urls</title>
+</head>
+<body>
+    <h1>Please select a url to use Tellina.</h1>
+    <ul id="navigation">
+    {% for link in urls%}
+        <li><a href="{{ link}}">{{ link }}</a></li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
