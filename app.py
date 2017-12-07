@@ -40,7 +40,7 @@ def login():
         if request.form['uw_netid'].strip() in uw_netids:
             # checking for a valid participant net id
             session['username'] = counter[0]
-            counter[0] += 1
+            counter[0] = counter[0] + 1
 
         return redirect(url_for('start_study'))
     else:
