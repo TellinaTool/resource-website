@@ -8,6 +8,7 @@ This website provides users with necessary information for the study:
 
 Installation
 ++++++++++++
+
 * Clone this repository
 * Project requires flask: ``pip3 install flask``
 * Run the website on 0.0.0.0:8080 ``python3 app.py``
